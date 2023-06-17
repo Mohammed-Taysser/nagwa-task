@@ -193,10 +193,37 @@ const randomItem = Random.arrayItem(myArray);
 console.log(randomItem);
 ```
 
+## Client
+
+### Pages
+
+#### Practice
+
+![practice-page](assets/practice-page.png)
+
+#### Rank
+
+![rank-page](assets/rank-page.png)
+
+#### 404
+
+![404-page](assets/404-page.png)
+
 ## TODO
 
-- [ ] use TypeScript
-- [ ] add any extra feature(s) that you think might improve such activity
-- [ ] Code readability is a must. Write comments to explain your code.
-- [ ] Follow a clean code structure.
-- [ ] Must apply code reuse. Never write the same code twice (DRY clean code concept).
+- [x] use TypeScript
+- [x] add any extra feature(s) that you think might improve such activity
+- [x] Code readability is a must. Write comments to explain your code.
+- [x] Follow a clean code structure.
+- [x] Must apply code reuse. Never write the same code twice (DRY clean code concept).
+
+## Limitation
+
+### Server
+
+- Sending request to `/rank` without score will give an error as response.
+
+### Client
+
+- Rank page: not showing rank without complete the survey, it show an error that the survey not complete
+- Practice page: can't skip the question
